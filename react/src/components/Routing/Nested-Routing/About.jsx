@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 
-function About1() {
+function About() {
     return(
         <>
         <Nav />
@@ -11,4 +11,4 @@ function About1() {
         </>
     )
 }
-export default About1;
+export default About;

@@ -3,7 +3,8 @@ import React from "react";
 // import Greeting from "./components/Greeting";
 // import Details from "./components/Details";
 // import BasicRouting from "../src/components/Routing/Basic-Routing/BasicRouting";
-import BasicRouting1 from "./components/Routing/Basic-Routing1/BasicRouting1";
+// import BasicRouting1 from "./components/Routing/Basic-Routing1/BasicRouting1";
+import NestedRouting from "./components/Routing/Nested-Routing/NestedRouting";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
     {/* <Details age={20}/> */}
     {/* <ParentComponent /> */}
     {/* <BasicRouting /> */}
-    <BasicRouting1 />
+    {/* <BasicRouting1 /> */}
+    <NestedRouting />
     </>
   )
 }
