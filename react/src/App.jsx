@@ -7,7 +7,8 @@ import React from "react";
 // import NestedRouting from "./components/Routing/Nested-Routing/NestedRouting";
 // import ControlledComponents from "./components/controlled-and-unControlled-components/ControlledComponent";
 // import UnControlledComponents from "./components/controlled-and-unControlled-components/UnControlledComponents";
-import MyComponentWithUpperCase from "./components/higher-order-components/HigherOrderComponents";
+// import MyComponentWithUpperCase from "./components/higher-order-components/HigherOrderComponents";
+import UseEffectComponent from "./components/useEffect/UseEffectComponent";
 
 function App() {
   return (
@@ -25,7 +26,9 @@ function App() {
     {/* <ControlledComponents /> */}
     {/* <UnControlledComponents /> */}
 
-    <MyComponentWithUpperCase text={"hai"} />
+    {/* <MyComponentWithUpperCase text={"hai"} /> */}
+
+    <UseEffectComponent />
     </>
   )
 }
