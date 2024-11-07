@@ -9,7 +9,9 @@ import React from "react";
 // import UnControlledComponents from "./components/controlled-and-unControlled-components/UnControlledComponents";
 // import MyComponentWithUpperCase from "./components/higher-order-components/HigherOrderComponents";
 // import UseEffectComponent from "./components/useEffect/UseEffectComponent";
-import UseCallbackComponent from "./components/use-CallBack-Component/UseCallbackComponent";
+// import UseCallbackComponent from "./components/use-CallBack-Component/UseCallbackComponent";
+// import UsersList from "./components/hooks/useMemo/UsersList";
+import UsersList1 from "./components/hooks/useMemo/UsersList1";
 
 function App() {
   return (
@@ -30,7 +32,10 @@ function App() {
     {/* <MyComponentWithUpperCase text={"hai"} /> */}
 
     {/* <UseEffectComponent /> */}
-    <UseCallbackComponent />
+    {/* <UseCallbackComponent /> */}
+    {/* <UsersList /> */}
+    <UsersList1 />
+    
     </>
   )
 }
