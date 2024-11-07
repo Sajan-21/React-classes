@@ -8,7 +8,8 @@ import React from "react";
 // import ControlledComponents from "./components/controlled-and-unControlled-components/ControlledComponent";
 // import UnControlledComponents from "./components/controlled-and-unControlled-components/UnControlledComponents";
 // import MyComponentWithUpperCase from "./components/higher-order-components/HigherOrderComponents";
-import UseEffectComponent from "./components/useEffect/UseEffectComponent";
+// import UseEffectComponent from "./components/useEffect/UseEffectComponent";
+import UseCallbackComponent from "./components/use-CallBack-Component/UseCallbackComponent";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
 
     {/* <MyComponentWithUpperCase text={"hai"} /> */}
 
-    <UseEffectComponent />
+    {/* <UseEffectComponent /> */}
+    <UseCallbackComponent />
     </>
   )
 }
