@@ -11,7 +11,9 @@ import React from "react";
 // import UseEffectComponent from "./components/useEffect/UseEffectComponent";
 // import UseCallbackComponent from "./components/use-CallBack-Component/UseCallbackComponent";
 // import UsersList from "./components/hooks/useMemo/UsersList";
-import UsersList1 from "./components/hooks/useMemo/UsersList1";
+// import UsersList1 from "./components/hooks/useMemo/UsersList1";
+// import UseContextApp from "./components/hooks/useContext/UseContextApp";
+import ThemeApp from "./components/hooks/useContext/theme/ThemeApp";
 
 function App() {
   return (
@@ -34,7 +36,10 @@ function App() {
     {/* <UseEffectComponent /> */}
     {/* <UseCallbackComponent /> */}
     {/* <UsersList /> */}
-    <UsersList1 />
+    {/* <UsersList1 /> */}
+    {/* <UseContextApp /> */}
+
+    <ThemeApp />
     
     </>
   )
